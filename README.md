@@ -122,6 +122,8 @@ NoSQL document databases have a flexible data model that enables many applicatio
 - The Full_Day_Event column signifies if an event is a full-day event.
 - Created_By and Created_Date columns store which user created an event and the date that event was created.
 
+[DB model](https://app.quickdatabasediagrams.com/#/d/KrqBLL)
+
 ### Event Table
 
 1. EventID PK int
