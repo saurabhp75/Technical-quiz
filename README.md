@@ -1,4 +1,3 @@
-
 # Question 1
 
 ## Database Selection, Relational vs NoSQL
@@ -35,50 +34,47 @@ NoSQL databases are a family of DB which are not relational in nature and are gr
 
 ## Use cases more suitable for NoSQL DB
 
-
 ### Personalisation
 
-Offering personalized user experience in mobile and web apps is to improve conversions. 
-Superior personalized experience demands a large volume of data as personalization is based entirely on data. 
-A relational database requires an expensive infrastructure to handle and manage the huge volume of data required 
+Offering personalized user experience in mobile and web apps is to improve conversions.
+Superior personalized experience demands a large volume of data as personalization is based entirely on data.
+A relational database requires an expensive infrastructure to handle and manage the huge volume of data required
 for personalization, whereas a NoSQL database can scale on demand and handle large chunks of data seamlessly.
-
 
 ### Real time experience
 
-Most of the modern applications require fast and real-time data access to and from the server. 
+Most of the modern applications require fast and real-time data access to and from the server.
 Real-time data access is not easy with relational databases whereas NoSQL databases can offer a real-time experience with low latency.
 
 ### Data analytics
 
-Traditionally, operational and analytical databases were kept as 2 separate environments. 
+Traditionally, operational and analytical databases were kept as 2 separate environments.
 Applications used operational databases whereas business intelligence tools used analytical databases for reporting and analysis.
 
 ### CMS
 
-CMS have been in existence for many years now and have been totally dependent on structured databases that lacked 
-speed and flexibility. With a NoSQL database, a CMS can store and read any type of data and present it to the customer 
+CMS have been in existence for many years now and have been totally dependent on structured databases that lacked
+speed and flexibility. With a NoSQL database, a CMS can store and read any type of data and present it to the customer
 at the time of interaction. Since there is no need to define the data model upfront, a NoSQL supported CMS can store and manage user generated content on the fly.
 
 ### Cloud computing
 
-Though most of the cloud computing platforms support structured databases, there is a clear shift towards NoSQL databases. 
-For any business that wishes to implement digital transformation, cloud computing is the best choice. 
+Though most of the cloud computing platforms support structured databases, there is a clear shift towards NoSQL databases.
+For any business that wishes to implement digital transformation, cloud computing is the best choice.
 The most preferred databases for cloud platforms are NoSQL databases and hence NoSQL databases is the go-to choice for modern cloud development.&nbsp;
 
 ### Zero downtime
 
-There are many applications which cannot afford to have a downtime no matter how minor it might be. 
-Applications powered by structured databases often suffer a downtime at the time of upgradation or migration. 
+There are many applications which cannot afford to have a downtime no matter how minor it might be.
+Applications powered by structured databases often suffer a downtime at the time of upgradation or migration.
 Unstructured databases can be upgraded without having any downtime thus enabling the business to have a zero compromise towards customer experience.&nbsp;
 
-
 ### Customer 360 degree view
-Customers expect a consistent experience on all the channels, and the enterprise always wants to provide the highest level of 
-customer services to their customers. However, as the number of products and services, channels and business units grows, 
-the fixed data model of relational databases forces enterprises to fragment customer data because different applications work with different customer data. 
-NoSQL document databases have a flexible data model that enables many applications to access the same customer data as well as add new attributes without affecting other applications.
 
+Customers expect a consistent experience on all the channels, and the enterprise always wants to provide the highest level of
+customer services to their customers. However, as the number of products and services, channels and business units grows,
+the fixed data model of relational databases forces enterprises to fragment customer data because different applications work with different customer data.
+NoSQL document databases have a flexible data model that enables many applications to access the same customer data as well as add new attributes without affecting other applications.
 
 # Question 2
 
@@ -201,8 +197,6 @@ Split the original event into two separate events, each with its own distinct re
 
 To delete an instance you have to create an event exception (e.g. a new entry in the Event_Instance_Exception table). To update a single instance, we need an exception entry and also a new non-recurring event stored that contains the data unique to that instance.
 
-
-
 # Question 3
 
-- Download the executable file from [here](https://github.com/saurabhp75/python-executable/blob/main/dist/question3.exe), please ignore the warning
+- Download the executable file from [here](https://github.com/saurabhp75/python-executable/blob/main/dist/question3.exe), please ignore the warning and click "more info".
